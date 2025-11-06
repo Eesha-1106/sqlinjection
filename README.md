@@ -43,11 +43,13 @@ Click on the menu Login/Register and register for an account
 
 Click on the link “Please register here”
 
-![Screenshot 2023-06-10 214117](https://github.com/praveenst13/sqlinjection/assets/118787793/abd46fae-74a4-48e7-9f95-8eb1470cfe3c)
+<img width="1000" height="371" alt="image" src="https://github.com/user-attachments/assets/f9cdee63-b121-45f9-a5cd-746540bb9ea3" />
+
 
 Click on “Create Account” to display the following page:
 
-![Screenshot 2023-06-10 214903](https://github.com/praveenst13/sqlinjection/assets/118787793/499aca4d-391b-4f0e-ac33-31ace3337955)
+<img width="1000" height="355" alt="image" src="https://github.com/user-attachments/assets/01230f5f-f8db-428e-ac8a-839e521c72ea" />
+
 
 The login structure we will use in our examples is straightforward. It contains two input fields (username and password), which are both vulnerable. The back-end content creates a query to approve the username and secret key given by the client. Here is an outline of the page rationale:
 
@@ -55,7 +57,7 @@ The login structure we will use in our examples is straightforward. It contains 
  For the username put “ganesh” or “anything” and for the password put (anything’ or ‘1’=’1) or (admin’ or ‘1’=’1) then try to log in, and you’ll be presented with an admin login page.
 
 
-![Screenshot 2023-06-10 223438](https://github.com/praveenst13/sqlinjection/assets/118787793/8ae683e6-f569-42f3-9c38-82bc3f9e6f41)
+<img width="1000" height="371" alt="image" src="https://github.com/user-attachments/assets/f9cdee63-b121-45f9-a5cd-746540bb9ea3" />
 
 Click “Login”. The logged in page will show as below:
 
@@ -69,7 +71,7 @@ The username field is vulnerable. Put (ganesh’ #) or (ganesh’--) in the user
 
 Now after logging out you will see the login page. In the login page give ganesh’ # . You can see the page now enters into the administrator page as before when giving the password. 
 
-![Screenshot 2023-06-10 223645](https://github.com/praveenst13/sqlinjection/assets/118787793/cb326fd0-509f-4df9-b97d-8a65bf1f0716)
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/e800ced1-faf2-419a-a4d5-86618e744ca4" />
 
 Click the login button and you will see it enter into the administrator page.
 
